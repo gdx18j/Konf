@@ -145,9 +145,8 @@ def main():
 
     app = VFSEmulator(root)
 
-    # Настройка тегов для цветного текста - приятные цвета
     app.output_area.tag_config("command", foreground="#4ec9b0")  # Бирюзовый для команд
-    app.output_area.tag_config("error", foreground="#f44747")  # Мягкий красный для ошибок
+    app.output_area.tag_config("error", foreground="#f44747")  # Красный для ошибок
 
     root.mainloop()
 
