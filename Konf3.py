@@ -14,7 +14,7 @@ parser.add_argument("--script", type=str, default=None, help="Путь к ста
 
 args = parser.parse_args()
 
-APP_TITLE = f"VFS REPL (вариант 17) — {args.vfs}"
+APP_TITLE = f"VFS REPL — {args.vfs}"
 PROMPT = args.prompt
 SCRIPT_PATH = args.script
 VFS_PATH = args.vfs
