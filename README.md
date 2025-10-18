@@ -17,3 +17,31 @@ python vfs_repl_v5.py --vfs vfs.zip --script test5.txt
 
 test5.txt - пример скрипта с командами для тестирования.
 vfs.zip   - архив виртуальной файловой системы.
+
+
+=== VFS Эмулятор (Этап 4: Основные команды) == VFS успешно загружена: myvfs.zip
+Выполняется стартовый скрипт: test3.txt
+user@vfs> 1s
+testvfs
+user@vfs> cd testvfs
+Текущая директория: /testvfs/
+user@vfs> cd non_folder
+Ошибка: путь '/testvfs/non_folder' не найден.
+user@vfs> cd /
+Текущая директория: /
+user@vfs> cd testvfs
+Текущая директория: /testvfs/
+user@vfs> cd home
+Текущая директория: /testvfs/home/
+user@vfs> 1s
+guest
+user
+user@vfs> tree
+Дерево папки /testvfs/home/:
+guest
+- guest.txt
+user
+- readme.md
+user@vfs> rev "hello world"
+dirow olleh
+exit
