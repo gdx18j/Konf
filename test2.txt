@@ -1,0 +1,9 @@
+ls
+cd testvfs
+cd non folder
+cd /
+cd testvfs
+cd home
+ls
+ls "temp"
+psdsd

@@ -1,0 +1,15 @@
+ls
+cd testvfs
+cd nothing
+cd /
+cd testvfs
+ls
+tree
+rev hello world
+history
+rmdir home
+ls
+rmdir emptydir
+ls
+cd testvfs
+tree

@@ -1,0 +1,11 @@
+ls
+cd testvfs
+cd non_folder
+cd /
+cd testvfs
+cd home
+ls
+tree
+rev "hello world"
+history
+dsfd

@@ -1,0 +1,4 @@
+python Konf2.py --vfs=/mnt/myvfs --prompt="user@vfs> " --script=test1.txt
+python Konf3.py --vfs=myvfs.zip --prompt="user@vfs> " --script=test2.txt
+python Konf4.py --vfs=myvfs.zip --prompt="user@vfs> " --script=test3.txt
+python Konf5.py --vfs=myvfs.zip --prompt="user@vfs> " --script=test4.txt
